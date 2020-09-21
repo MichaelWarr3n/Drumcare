@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.topBanner {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    position: relative;
+}
+
+.topBanner p.adress {
+    width: 20%;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.topBanner img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+.topBanner div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.topBanner div a {
+    text-decoration: none;
+}
+
+.topBanner div a span {
+    display: flex;
+    align-content: center;
+}
+
+.topBanner div a span img {
+    filter: invert();
+    display: inline;
+    width: 10%;
+}
+
+.topBanner div a span p {
+    display: inline;
+    margin: auto 0;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+nav ul {
+    background-color: blue;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 10%;
+}
+
+nav ul a:hover {
+    background-color: lightblue;
+}
+
+nav ul a li {
+    text-align: center;
+}
+
+li.breaker {
+    border-left: 2px solid gold;
+}
+
+section.aboutUs, section.IBCs {
+    display: flex;
+}
+
+section.aboutUs img, section.IBCs img {
+    width: 45%;
+    height: auto;
+}
+
+section.aboutUs div {
+    padding: auto 0;
+    background-color: rgba(155, 155, 155, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.aboutUs div h2, section.IBCs div h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: 900;
+    color: blue;
+}
+
+section.aboutUs div p, section.IBCs div p {
+    margin: 2%;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+section.IBCs div {
+    padding: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+}
+
+section.IBCs div ul {
+    list-style: circle;
+}
+
+section.IBCs div ul li {
+    margin: 2%;
+}
