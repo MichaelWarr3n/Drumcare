@@ -76,12 +76,17 @@ html {
     font-weight: 700;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 nav ul {
     background-color: blue;
     list-style: none;
-    display: flex;
-    justify-content: flex-end;
     width: 100%;
+    display: inline-flex;
 }
 
 nav ul a {
